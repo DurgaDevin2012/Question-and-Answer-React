@@ -1,0 +1,119 @@
+		React- Questions and Answers(10/10/2023)
+		~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1)Use of context.
+
+Answer)Context is primarily used when some data needs to be
+ accessible by many components at different nesting levels. 
+			--------------
+
+2)useContext and useReducer.
+
+Answer)
+	USECONTEXT:* is to allow your components to access global data 
+and re-render when that global data is changed.
+
+* Context is used when some data needs to be accessible by
+ many components at different nesting levels.
+
+USEREDUCER:
+	 The useReducer Hook is used to store and update states.
+		-------------------
+
+3)howto update  state in context?
+
+Answer) To update state in context, use the useState hook within the 
+context provider component and provide a function to update the state. 
+			----------------
+
+4)What is createcontext?write is purpose.
+
+Answer)createContext is a function in React used to create a context 
+object, which helps in sharing state and data 
+across components efficiently. 
+			-------------------
+
+5)contextProvider and contextconsumer.
+
+Answer)
+	CONTEXTPROVIDER:Every Context object comes with a Provider React component that allows
+ consuming components to subscribe to context changes. 
+
+	CONTEXTCONSUMER:A React component that subscribes to context changes. 
+			-----------------
+
+6)Differentiate between Redux and context
+
+Answer)     
+	CONTEXT:Context is primarily used when some data needs to be 
+accessible by many components at different nesting levels. 
+
+	REDUX:React redux is an advanced state management library for React. As we learned earlier, React 
+only supports component level state management.
+			-------------------
+
+7)purpose of useselector and useDispatch hook.
+
+Answer)
+
+	USESELECTOR:useSelector is for accessing specific parts of Redux store state.
+	USEEDISPATCH: useDispatch is used to  dispatch actions in React Redux.   
+			--------------------
+
+8)use of Fragment.
+
+Answer)
+	FRAGMENT:feature in React that allows you to return multiple elements from a React component by allowing you to group a 
+list of children without adding extra nodes to the DOM.
+			--------------------
+
+9)What is store in redux?
+
+Answer)
+	A store is an immutable object tree in Redux.
+ A store is a state container which holds the application's state.
+ Redux can have only a single store in your application. 	
+			-------------------
+
+10)How to read initialstate and reducer function in redux?
+
+Answer)
+	Initial state is defined when creating a Redux store, and the reducer function specifies how 
+    state changes in response to actions.  
+			-----------------
+
+11) what is sass and uses?
+
+ANswer)
+     SCSS is a superset of CSS that adds features like variables
+ and nesting for more maintainable and organized styles.
+			--------------
+
+12)Differentiate between SCSS and CSS.
+
+Answer)
+	SCSS allows you to nest selectors within other selectors, 
+making it easier to write and read complex stylesheets.
+
+	whereas CSS requires you to write each selector separately.
+			----------------
+13)Why we go for lifecycle?
+
+Answer)
+	These methods allow you to control the component's behavior and perform specific
+ actions at different stages of its lifecycle.
+			------------------
+
+14)Which one is better redux or context?Give reason.	
+
+Answer) Redux is a more powerful and predictable solution that is suitable for large and 
+complex applications with complex state management requirements.
+			------------------------
+
+15)How many slice created in redus and
+ how many store created in redux?
+
+Answer)	  Redux can have multiple slices for different parts of the state,
+ but typically, there's one store for the entire application.
+
+_________________________________________________________________________________________
